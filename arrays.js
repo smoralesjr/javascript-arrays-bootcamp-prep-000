@@ -28,5 +28,5 @@ var accessElementInArray = function(array, index) {
 };
 
 var removeElementFromBeginningOfArray = function(array){
-  
+  return array.slice(1);
 }
